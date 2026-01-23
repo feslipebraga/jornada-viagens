@@ -1,0 +1,11 @@
+:root {
+    --color-bg-main: #FFFFFF;
+    --color-bg-soft: #F5F5F5;
+    --color-bg-inverse: #000000;
+
+    --color-action-main: #B81515;
+    --color-action-hover: #8F0101;
+
+    --color-text-main: #222222;
+    --color-text-inverse: #FFFFFF;
+}
