@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornada Viagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/brand/bussola-branca.png" alt="Bussóla da logo Jornada Viagens na cor branca">
+                </a>
+
+                <button class="nav__toggle" id="btn-menu" aria-label="Abrir menu de navegação">
+                    <img src="assets/icons/menu.svg" alt="Ícone de menu hamburguer">
+                </button>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="blog.html" title="Acessar Blog" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pacotes.html" title="Acessar Pacotes de viagem" class="nav__link">Pacotes de viagem</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contato.html" title="Acessar Contato" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
