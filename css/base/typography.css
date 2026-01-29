@@ -1,6 +1,7 @@
 body {
     font-family: var(--font-main);
-    font-weight: 400;
+    font-weight: var(--weight-regular);
+    color: var(--color-text-main);
 }
 
 h1,
@@ -8,8 +9,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
-button {
+h6 {
     font-family: var(--font-main);
-    font-weight: 700;
+    font-weight: var(--weight-bold);
+    color: var(--color-text-main);
+}
+
+footer {
+    font-family: var(--font-main);
+    font-weight: var(--weight-medium);
+    color: var(--color-text-main);
 }
