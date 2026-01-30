@@ -1,0 +1,40 @@
+.offers {
+    width: 312px;
+}
+
+.section__header {
+    padding-bottom: 32px;
+    margin: 0 auto;
+}
+
+.section-title {
+    position: relative;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 28px;
+}
+
+.section-title::after {
+    content: '';
+    width: 180px;
+    height: 4px;
+    background-color: var(--color-action-main);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width: 768px) {
+    .offers {
+        width: 648px;
+    }
+}
+
+/* Implementar para tamanho de laptop: 1024px */
+
+@media screen and (min-width: 1440px) {
+    .offers {
+        width: 1200px;
+    }
+}
