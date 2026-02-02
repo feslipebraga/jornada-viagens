@@ -1,0 +1,11 @@
+.categories {
+    padding-bottom: 88px;
+}
+
+.categories__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
