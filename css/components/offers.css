@@ -1,4 +1,8 @@
+
 .offers {
+    width: 312px;
+    margin: 0 auto;
+    align-items: center;
     padding-bottom: 88px;
 }
 
@@ -64,4 +68,30 @@
 .offers__card-button:hover {
     background: var(--color-action-hover);
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .offers {
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section__header {
+        padding-bottom: 64px;
+    }
+
+    .offers {
+        width: 1200px;
+        padding-bottom: 104px;
+        margin: 0 auto;
+    }
+
+    .offers__card-city {
+        font-size: 48px;
+    }
+
+    .offers__card-price {
+        font-size: 40px;
+    }
 }

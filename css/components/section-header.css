@@ -1,7 +1,3 @@
-.offers {
-    width: 312px;
-}
-
 .section__header {
     padding-bottom: 32px;
     margin: 0 auto;
@@ -31,7 +27,11 @@
     }
 }
 
-/* Implementar para tamanho de laptop: 1024px */
+@media screen and (min-width: 1024px) {
+    .offers {
+        width: 960px;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .offers {
