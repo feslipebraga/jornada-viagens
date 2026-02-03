@@ -30,7 +30,9 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li><a href="blog.html" title="Acessar Blog" class="nav__link">Blog</a></li>
-                    <li><a href="pacotes.html" title="Acessar Pacotes de viagem" class="nav__link">Pacotes de viagem</a></li>
+                    <li>
+                        <a href="pacotes.html" title="Acessar Pacotes de viagem" class="nav__link">Pacotes de viagem</a>
+                    </li>
                     <li><a href="contato.html" title="Acessar Contato" class="nav__link">Contato</a></li>
                 </ul>
             </div>
@@ -42,15 +44,202 @@
             <picture class="hero__picture">
                 <source media="(min-width: 1024px)" srcset="assets/images/home/hero-desktop.png">
                 <source media="(min-width: 768px)" srcset="assets/images/home/hero-tablet.png">
-                <img class="hero__img" src="assets/images/home/hero-mobile.png" alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
+                <img class="hero__img" src="assets/images/home/hero-mobile.png"
+                    alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
             </picture>
 
             <h2 class="hero__title">
-                Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
+                Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades,
+                cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
             </h2>
         </div>
     </section>
 
+    <section class="offers container">
+        <div class="section__header">
+            <h2 class="section-title">
+                Ofertas da Semana
+            </h2>
+        </div>
+
+        <div class="offers__cards">
+            <div class="offers__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-japao-desktop.png">
+
+                    <img src="assets/images/cards/card-japao-mobile.png" class="offers__card-img"
+                        alt="Imagem do destino Japão">
+                </picture>
+                <div class="offers__card-content">
+                    <div class="offers__card-header">
+                        <h2 class="offers__card-title">HOTEL+AÉREO</h2>
+                        <p class="offers__card-city">Japão</p>
+                    </div>
+                    <p class="offers__card-price">R$ 4000</p>
+                    <button class="offers__card-button">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offers__card">
+                <div class="offers__card">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="assets/images/cards/card-sanandreas-desktop.png">
+                        <img src="assets/images/cards/card-sanandreas-mobile.png" class="offers__card-img"
+                            alt="Imagem do destino San Andreas">
+                    </picture>
+                    <div class="offers__card-content">
+                        <div class="offers__card-header">
+                            <h2 class="offers__card-title">HOTEL + AÉREO</h2>
+                            <p class="offers__card-city">San Andreas</p>
+                        </div>
+                        <p class="offers__card-price">R$ 3000</p>
+                        <button class="offers__card-button">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offers__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-paraiba-desktop.png">
+                    <img src="assets/images/cards/card-paraiba-mobile.png" class="offers__card-img"
+                        alt="Imagem do destino Paraíba">
+                </picture>
+                <div class="offers__card-content">
+                    <div class="offers__card-header">
+                        <h2 class="offers__card-title">HOTEL + AÉREO</h2>
+                        <p class="offers__card-city">Paraíba</p>
+                    </div>
+                    <p class="offers__card-price">R$ 1200</p>
+                    <button class="offers__card-button">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offers__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-manaus-desktop.png">
+                    <img src="assets/images/cards/card-manaus-mobile.png" class="offers__card-img"
+                        alt="Imagem do destino Manaus">
+                </picture>
+                <div class="offers__card-content">
+                    <div class="offers__card-header">
+                        <h2 class="offers__card-title">HOTEL + AÉREO</h2>
+                        <p class="offers__card-city">Manaus</p>
+                    </div>
+                    <p class="offers__card-price">R$ 1600</p>
+                    <button class="offers__card-button">Ver Detalhes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories container">
+        <div class="section__header">
+            <h2 class="section-title">
+                Busque por Categoria
+            </h2>
+        </div>
+
+        <div class="categories__cards">
+
+            <a href="#" class="categories__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-pacotes-nacionais-desktop.png">
+                    <img src="assets/images/cards/card-pacotes-nacionais-mobile.png" class="categories__card-img"
+                        alt="Pacotes Nacionais">
+                </picture>
+            </a>
+
+
+            <a href="#" class="categories__card">
+                <picture>
+                    <source media="(min-width: 1024px)"
+                        srcset="assets/images/cards/card-pacotes-internacionais-desktop.png">
+
+                    <img src="assets/images/cards/card-pacotes-internacionais-mobile.png" class="categories__card-img"
+                        alt="Card de pacotes internacionais">
+                </picture>
+            </a>
+
+            <a href="#" class="categories__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-transfer-desktop.png">
+
+                    <img src="assets/images/cards/card-transfer-mobile.png" class="categories__card-img"
+                        alt="Card de pacote transfer">
+                </picture>
+            </a>
+
+            <a href="#" class="categories__card">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-seguro-viagem-desktop.png">
+
+                    <img src="assets/images/cards/card-seguro-viagem-mobile.png" class="categories__card-img"
+                        alt="Card de pacote seguro viagem">
+                </picture>
+            </a>
+        </div>
+    </section>
+
+    <section class="popular-destinations container">
+        <div class="section__header">
+            <h2 class="section-title">
+                Destinos Populares
+            </h2>
+        </div>
+
+        <div class="destinations__cards">
+
+            <!-- DESTINO TÓQUIO -->
+            <div class="destination__card">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="assets/images/cards/tokyo-tablet-desktop.jpg">
+                        <img src="assets/images/cards/tokyo-mobile.jpg" class="destination__card-img"
+                            alt="Tokyo imagem do destino">
+                    </picture>
+                </a>
+
+                <h4 class="destination__card-title">
+                    Tokyo
+                </h4>
+
+                <p class="destination__card-description">
+                    Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e
+                    arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.
+                </p>
+
+                <a href="#" class="destination__card-link">
+                    Ver detalhes
+                </a>
+            </div>
+
+            <!-- DESTINO OSAKA -->
+            <div class="destination__card">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="assets/images/cards/osaka-tablet-desktop.jpg">
+
+                        <img src="assets/images/cards/osaka-mobile.jpg" class="destination__card-img"
+                            alt="Osaka imagem do destino">
+                    </picture>
+                </a>
+
+                <h4 class="destination__card-title">
+                    Osaka
+                </h4>
+
+                <p class="destination__card-description">
+                    Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e
+                    por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.
+                </p>
+
+                <a href="#" class="destination__card-link">
+                    Ver detalhes
+                </a>
+            </div>
+
+        </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 
