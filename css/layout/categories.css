@@ -9,3 +9,12 @@
     gap: 24px;
 }
 
+@media screen and (min-width: 1024px) {
+    .categories__cards {
+        margin: 0 2.5rem;
+    }
+
+    .categories__card-img {
+        width: 300px;
+    }
+}
