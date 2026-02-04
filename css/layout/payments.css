@@ -1,0 +1,41 @@
+.payment-methods {
+    padding-bottom: 88px;
+}
+
+.payment-methods__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.payment-methods__title {
+    font-size: 28px;
+    font-weight: var(--weight-bold);
+}
+
+.payment-methods__description {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.payment-methods__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.payment-methods__img--wide {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .payment-methods__grid img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .payment-methods__grid img {
+        width: auto;
+    }
+}
