@@ -40,19 +40,21 @@
     </header>
 
     <!-- HERO -->
-    <section class="hero container" style="display: none;">
-        <div class="hero-content">
-            <picture class="hero-picture">
-                <source media="(min-width: 1024px)" srcset="assets/images/home/hero-desktop.png">
-                <source media="(min-width: 768px)" srcset="assets/images/home/hero-tablet.png">
-                <img class="hero-img" src="assets/images/home/hero-mobile.png"
-                    alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
-            </picture>
+    <section class="hero">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="assets/images/home/hero-desktop.png">
+            <source media="(min-width: 768px)" srcset="assets/images/home/hero-tablet.png">
+            <img class="hero__img" src="assets/images/home/hero-mobile.png"
+                alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
+        </picture>
 
-            <h2 class="hero-title">
-                Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades,
-                cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
-            </h2>
+        <div class="container">
+            <div class="hero__content">
+                <h2 class="hero__title">
+                    Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades,
+                    cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
+                </h2>
+            </div>
         </div>
     </section>
 
@@ -246,7 +248,7 @@
     </section>
 
     <!-- CONDIÇÕES DE PAGAMENTO -->
-    <section class="payment-methods container">
+    <section class="payment-methods container" style="display: none;">
         <div class="section__header">
             <h2 class="section-title">
                 Condições de Pagamento
