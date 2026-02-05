@@ -1,0 +1,42 @@
+/* BOTÃO DA SECTION OFFERS */
+
+.offers__card-button {
+    display: flex;
+    width: min(280px, 100%);
+    max-width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: var(--color-action-main);
+    font-size: 1.25rem;
+    font-weight: inherit;
+    color: inherit;
+    border: none;
+}
+
+.offers__card-button:hover {
+    background: var(--color-action-hover);
+    cursor: pointer;
+}
+
+ /* BOTÃO DA SECTION DESTINOS POPULARES */
+
+.destination__card-link {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--color-action-main);
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--weight-bold);
+    color: var(--color-text-inverse);
+    text-decoration: none;
+}
+
+.destination__card-link:hover {
+    background: var(--color-action-hover);
+}
