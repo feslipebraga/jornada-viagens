@@ -1,12 +1,8 @@
-.categories {
-    padding-bottom: 88px;
-}
-
 .categories__cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    justify-items: center;
+    justify-items: stretch;
 }
 
 .categories__card {
