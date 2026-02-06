@@ -1,17 +1,15 @@
 .section__header {
-    width: 312px;
     padding-bottom: 32px;
-    margin: 0 auto;
 }
 
-.section-title {
+.section__title {
     position: relative;
     text-align: center;
     padding-bottom: 1rem;
     font-size: 28px;
 }
 
-.section-title::after {
+.section__title::after {
     content: '';
     width: 180px;
     height: 4px;
@@ -22,20 +20,8 @@
     transform: translateX(-50%);
 }
 
-@media screen and (min-width: 768px) {
-    .offers {
-        width: 648px;
-    }
-}
-
 @media screen and (min-width: 1024px) {
-    .offers {
-        width: 960px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .offers {
-        width: 1200px;
+    .section__header {
+        padding-bottom: 4rem;
     }
 }

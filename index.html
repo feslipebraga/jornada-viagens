@@ -13,51 +13,56 @@
 
 <body>
     <header class="header">
-        <nav class="nav container">
-            <div class="nav__brand">
-                <a href="index.html" class="nav__logo">
-                    <img src="assets/brand/bussola-branca.png" class="img-mobile"
+        <nav class="header__nav">
+            <div class="header__brand">
+                <a href="index.html" class="header__logo">
+                    <img src="assets/brand/bussola-branca.png" class="header__img--mobile"
                         alt="Bussóla da logo Jornada Viagens na cor branca">
-                    <img src="assets/brand/logo-jornada-branca.png" class="img-desktop"
+                    <img src="assets/brand/logo-jornada-branca.png" class="header__img--desktop"
                         alt="Logo Jornada Viagens na cor branca">
                 </a>
 
-                <button class="nav__toggle" id="btn-menu" aria-label="Abrir menu de navegação">
-                    <img src="assets/icons/menu.svg" class="img-menu" alt="Ícone de menu hamburguer">
+                <button class="header__toggle" id="btn-menu" aria-label="Abrir menu de navegação">
+                    <img src="assets/icons/menu.svg" class="header__toggle-icon" alt="Ícone de menu hamburguer">
                 </button>
             </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li><a href="blog.html" title="Acessar Blog" class="nav__link">Blog</a></li>
+            <div class="header__menu" id="header-menu">
+                <ul class="header__list">
+                    <li><a href="blog.html" title="Acessar Blog" class="header__link">Blog</a></li>
                     <li>
-                        <a href="pacotes.html" title="Acessar Pacotes de viagem" class="nav__link">Pacotes de viagem</a>
+                        <a href="pacotes.html" title="Acessar Pacotes de viagem" class="header__link">Pacotes de
+                            viagem</a>
                     </li>
-                    <li><a href="contato.html" title="Acessar Contato" class="nav__link">Contato</a></li>
+                    <li><a href="contato.html" title="Acessar Contato" class="header__link">Contato</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section class="hero container">
-        <div class="hero__content">
-            <picture class="hero__picture">
-                <source media="(min-width: 1024px)" srcset="assets/images/home/hero-desktop.png">
-                <source media="(min-width: 768px)" srcset="assets/images/home/hero-tablet.png">
-                <img class="hero__img" src="assets/images/home/hero-mobile.png"
-                    alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
-            </picture>
+    <section class="hero">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="assets/images/home/hero-desktop.png">
+            <source media="(min-width: 768px)" srcset="assets/images/home/hero-tablet.png">
+            <img class="hero__img" src="assets/images/home/hero-mobile.png"
+                alt="Pessoa em pé em um barco de madeira em um rio cristalino e turquesa, cercada por densa vegetação de palmeiras verdes e troncos caídos. Céu azul claro com poucas nuvens. A cena transmite serenidade, aventura e conexão com a natureza tropical.">
+        </picture>
 
-            <h2 class="hero__title">
-                Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades,
-                cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
-            </h2>
+        <div class="container">
+            <div class="hero__content">
+                <h2 class="hero__title">
+                    Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das
+                    atividades,
+                    cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
+                </h2>
+            </div>
         </div>
+
     </section>
 
     <section class="offers container">
         <div class="section__header">
-            <h2 class="section-title">
+            <h2 class="section__title">
                 Ofertas da Semana
             </h2>
         </div>
@@ -65,25 +70,26 @@
         <div class="offers__cards">
             <div class="offers__card">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-japao-desktop.png">
+                    <source media="(min-width: 1440px)" srcset="assets/images/cards/card-japao-desktop.png">
 
                     <img src="assets/images/cards/card-japao-mobile.png" class="offers__card-img"
                         alt="Imagem do destino Japão">
                 </picture>
+
                 <div class="offers__card-content">
                     <div class="offers__card-header">
                         <h2 class="offers__card-title">HOTEL+AÉREO</h2>
                         <p class="offers__card-city">Japão</p>
                     </div>
                     <p class="offers__card-price">R$ 4000</p>
-                    <button class="offers__card-button">Ver Detalhes</button>
+                    <a class="card-button">Ver Detalhes</a>
                 </div>
             </div>
 
             <div class="offers__card">
                 <div class="offers__card">
                     <picture>
-                        <source media="(min-width: 1024px)" srcset="assets/images/cards/card-sanandreas-desktop.png">
+                        <source media="(min-width: 1440px)" srcset="assets/images/cards/card-sanandreas-desktop.png">
                         <img src="assets/images/cards/card-sanandreas-mobile.png" class="offers__card-img"
                             alt="Imagem do destino San Andreas">
                     </picture>
@@ -93,14 +99,14 @@
                             <p class="offers__card-city">San Andreas</p>
                         </div>
                         <p class="offers__card-price">R$ 3000</p>
-                        <button class="offers__card-button">Ver Detalhes</button>
+                        <a class="card-button">Ver Detalhes</a>
                     </div>
                 </div>
             </div>
 
             <div class="offers__card">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-paraiba-desktop.png">
+                    <source media="(min-width: 1440px)" srcset="assets/images/cards/card-paraiba-desktop.png">
                     <img src="assets/images/cards/card-paraiba-mobile.png" class="offers__card-img"
                         alt="Imagem do destino Paraíba">
                 </picture>
@@ -110,13 +116,13 @@
                         <p class="offers__card-city">Paraíba</p>
                     </div>
                     <p class="offers__card-price">R$ 1200</p>
-                    <button class="offers__card-button">Ver Detalhes</button>
+                    <a class="card-button">Ver Detalhes</a>
                 </div>
             </div>
 
             <div class="offers__card">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="assets/images/cards/card-manaus-desktop.png">
+                    <source media="(min-width: 1440px)" srcset="assets/images/cards/card-manaus-desktop.png">
                     <img src="assets/images/cards/card-manaus-mobile.png" class="offers__card-img"
                         alt="Imagem do destino Manaus">
                 </picture>
@@ -126,7 +132,7 @@
                         <p class="offers__card-city">Manaus</p>
                     </div>
                     <p class="offers__card-price">R$ 1600</p>
-                    <button class="offers__card-button">Ver Detalhes</button>
+                    <a class="card-button">Ver Detalhes</a>
                 </div>
             </div>
         </div>
@@ -134,7 +140,7 @@
 
     <section class="categories container">
         <div class="section__header">
-            <h2 class="section-title">
+            <h2 class="section__title">
                 Busque por Categoria
             </h2>
         </div>
@@ -180,16 +186,14 @@
         </div>
     </section>
 
-    <section class="popular-destinations container">
+    <section class="destinations container">
         <div class="section__header">
-            <h2 class="section-title">
+            <h2 class="section__title">
                 Destinos Populares
             </h2>
         </div>
 
         <div class="destinations__cards">
-
-            <!-- DESTINO TÓQUIO -->
             <div class="destination__card">
                 <a href="#">
                     <picture>
@@ -208,12 +212,11 @@
                     arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.
                 </p>
 
-                <a href="#" class="destination__card-link">
+                <a href="#" class="card-button">
                     Ver detalhes
                 </a>
             </div>
 
-            <!-- DESTINO OSAKA -->
             <div class="destination__card">
                 <a href="#">
                     <picture>
@@ -233,11 +236,49 @@
                     por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.
                 </p>
 
-                <a href="#" class="destination__card-link">
+                <a href="#" class="card-button">
                     Ver detalhes
                 </a>
             </div>
 
+        </div>
+    </section>
+
+    <section class="payment container">
+        <div class="section__header">
+            <h2 class="section__title">
+                Condições de Pagamento
+            </h2>
+        </div>
+
+        <div class="payment__content">
+            <div class="payment__text">
+                <h4 class="payment__title">
+                    Parcelamento em até 12x!
+                </h4>
+
+                <p class="payment__description">
+                    Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10%
+                    de desconto!
+                </p>
+            </div>
+
+            <div class="payment__imgs">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="assets/images/payments/img-1-tablet-desktop.png">
+                    <img src="./assets/images/payments/img-1.png" alt="">
+                </picture>
+
+                <picture>
+                    <source media="(min-width: 768px)" srcset="assets/images/payments/img-2-tablet-desktop.png">
+                    <img src="./assets/images/payments/img-2.png" alt="">
+                </picture>
+
+                <picture class="payment__img--wide">
+                    <source media="(min-width: 768px)" srcset="assets/images/payments/img-3-tablet-desktop.png">
+                    <img src="./assets/images/payments/img-3.png" alt="">
+                </picture>
+            </div>
         </div>
     </section>
     <script src="js/script.js"></script>

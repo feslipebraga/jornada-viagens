@@ -1,0 +1,24 @@
+/* BOTÃO DA SECTION OFFERS E POPULAR DESTINATIONS */
+
+.card-button {
+    display: flex;
+    width: 280px;
+    height: 4rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: var(--color-action-main);
+    font-size: 1.25rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-text-inverse);
+    text-decoration: none;
+    line-height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.card-button:hover {
+    background: var(--color-action-hover);
+    cursor: pointer;
+    transform: scale(1.05);
+}

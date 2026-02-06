@@ -3,51 +3,51 @@
     padding: 2rem 1.5rem;
 }
 
-.nav {
+.header__nav {
     display: flex;
     flex-direction: column;
 }
 
-.nav__brand {
+.header__brand {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1.5rem;
 }
 
-.img-mobile {
+.header__img--mobile {
     display: block;
     width: 4.25rem;
     height: 4rem;
 }
 
-.img-desktop {
+.header__img--desktop {
     display: none;
     width: 16.25rem;
     height: 4rem;
 }
 
-.nav__toggle {
+.header__toggle {
     display: block;
     background: none;
     border: transparent;
     cursor: pointer;
 }
 
-.img-menu {
+.header__toggle-icon {
     width: 2rem;
     height: 2rem;
 }
 
-.nav__menu {
+.header__menu {
     display: none;
 }
 
-.nav__menu.active {
+.header__menu.active {
     display: block;
 }
 
-.nav__list {
+.header__list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -55,7 +55,7 @@
     list-style: none;
 }
 
-.nav__link {
+.header__link {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--color-text-inverse);
@@ -67,26 +67,26 @@
         padding: 2rem 0;
     }
 
-    .nav {
+    .header__nav {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 0 3.75rem;
     }
 
-    .nav__brand {
+    .header__brand {
         padding: 0;
     }
 
-    .nav__toggle {
+    .header__toggle {
         display: none;
     }
 
-    .nav__menu {
+    .header__menu {
         display: block;
     }
 
-    .nav__list {
+    .header__list {
         flex-direction: row;
         gap: 2rem;
         padding: 0;
@@ -98,28 +98,28 @@
         padding: 2rem 0;
     }
 
-    .nav {
+    .header__nav {
         padding: 0 5rem;
     }
 
-    .img-mobile {
+    .header__img--mobile {
         display: none;
     }
 
-    .img-desktop {
+    .header__img--desktop {
         display: block;
     }
 
-    .nav__list {
+    .header__list {
         gap: 2rem;
     }
 
-    .nav__link:hover {
+    .header__link:hover {
         color: var(--color-action-hover);
         font-weight: 700;
     }
 
-    .nav__link:active {
+    .header__link:active {
         color: var(--color-text-inverse);
         text-decoration: underline;
         font-weight: 700;
@@ -132,28 +132,28 @@
         padding: 2rem 0;
     }
 
-    .nav {
+    .header__nav {
         padding: 0 7.5rem;
     }
 
-    .img-mobile {
+    .header__img--mobile {
         display: none;
     }
 
-    .img-desktop {
+    .header__img--desktop {
         display: block;
     }
 
-    .nav__list {
+    .header__list {
         gap: 2.5rem;
     }
 
-    .nav__link:hover {
+    .header__link:hover {
         color: var(--color-action-hover);
         font-weight: 700;
     }
 
-    .nav__link:active {
+    .header__link:active {
         color: var(--color-text-inverse);
         text-decoration: underline;
         font-weight: 700;

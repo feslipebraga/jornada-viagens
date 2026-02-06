@@ -1,27 +1,37 @@
-.destinations__cards {
+.payment__content {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 24px;
 }
 
-.destination__card {
+.payment__text {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.destination__card-title {
+.payment__title {
     font-size: 28px;
     font-weight: var(--weight-bold);
 }
 
-.destination__card-description {
+.payment__description {
     font-size: 20px;
     line-height: 32px;
 }
 
+.payment__imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.payment__img--wide {
+    grid-column: span 2;
+}
+
 @media screen and (min-width: 1024px) {
-    .destinations__cards {
+    .payment__content {
         grid-template-columns: repeat(2, 1fr);
     }
 }
