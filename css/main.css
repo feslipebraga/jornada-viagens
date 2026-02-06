@@ -10,7 +10,7 @@
 @import url('./components/card.css');
 @import url('./layout/hero.css');
 @import url('./components/section-header.css');
-@import url('./components/offers.css');
+@import url('./layout/offers.css');
 @import url('./layout/categories.css');
 @import url('./layout/destinations.css');
-@import url('./layout/payments.css');
+@import url('./layout/payment.css');
