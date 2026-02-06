@@ -1,7 +1,3 @@
-.offers {
-    padding-bottom: 5.5rem;
-}
-
 .offers__cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,11 +6,6 @@
 
 .offers__card {
     position: relative;
-}
-
-.offers__card-img {
-    width: 100%;
-    display: block;
 }
 
 .offers__card-content {
@@ -56,11 +47,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .section__header {
-        padding-bottom: 4rem;
-    }
-
+@media screen and (min-width: 1024px) {
     .offers {
         padding-bottom: 6.5rem;
     }

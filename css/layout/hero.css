@@ -1,13 +1,5 @@
-.hero__content {
-    display: flex;
-    flex-direction: column;
-}
-
 .hero__img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+    padding-bottom: 88px;
 }
 
 .hero__title {
@@ -15,12 +7,17 @@
     font-size: 20px;
     font-weight: var(--weight-regular);
     line-height: 32px;
-    padding-block: 88px;
 }
 
 @media screen and (min-width: 768px) {
     .hero__title {
         font-size: 32px;
         line-height: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero__img {
+        padding-bottom: 104px;
     }
 }

@@ -1,4 +1,4 @@
-/* BOTÃO DA SECTION OFFERS */
+/* BOTÃO DA SECTION OFFERS E POPULAR DESTINATIONS */
 
 .card-button {
     display: flex;
@@ -15,9 +15,11 @@
     color: var(--color-text-inverse);
     text-decoration: none;
     line-height: 32px;
+    transition: transform 0.3s ease;
 }
 
 .card-button:hover {
     background: var(--color-action-hover);
     cursor: pointer;
+    transform: scale(1.05);
 }

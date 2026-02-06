@@ -3,7 +3,7 @@
 @import url('./themes/variables.css');
 @import url('./base/reset.css');
 @import url('./base/typography.css');
-@import url('./layout/grid.css');
+@import url('./layout/container.css');
 @import url('./layout/header.css');
 @import url('./layout/footer.css');
 @import url('./components/button.css');
