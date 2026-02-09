@@ -47,6 +47,16 @@ footer .container {
     gap: 8px;
 }
 
+.footer__contact a {
+    color: var(--color-bg-soft);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer__contact a:hover {
+    color: #1e545f;
+}
+
 /* substituir por uma outra classe global */
 .footer__social {
     display: flex;
@@ -56,7 +66,7 @@ footer .container {
 
 .footer__img {
     width: revert;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 }
 
 .social-icons a {
