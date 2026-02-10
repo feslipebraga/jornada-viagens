@@ -1,12 +1,13 @@
-.section__header {
+.section__header,
+.header-hero{
     padding-bottom: 32px;
 }
 
 .section__title {
     position: relative;
+    font-size: 32px;
     text-align: center;
     padding-bottom: 1rem;
-    font-size: 28px;
 }
 
 .section__title::after {

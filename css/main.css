@@ -15,3 +15,5 @@
 @import url('./layout/destinations.css');
 @import url('./layout/payment.css');
 @import url('./layout/testimonials.css');
+@import url('./layout/blog.css');
+@import url('./components/post.css');
