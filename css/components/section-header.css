@@ -1,11 +1,11 @@
 .section__header,
-.section__header-hero{
+.header-hero{
     padding-bottom: 32px;
 }
 
 .section__title {
     position: relative;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -19,40 +19,6 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.section__title-hero {
-    position: relative;
-    font-size: 48px;
-    padding-bottom: 1rem;
-    color: white;
-}
-
-.section__title-hero::after {
-    content: '';
-    width: 180px;
-    height: 4px;
-    background-color: var(--color-action-main);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: none;
-}
-
-.section__description-hero {
-    font-size: 20px;
-    line-height: 32px;
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-}
-
-
-@media screen and (min-width: 768px) {
-    .section__description-hero {
-        font-size: 32px;
-        line-height: 48px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
