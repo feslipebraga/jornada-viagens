@@ -1,4 +1,5 @@
-.section__header {
+.section__header,
+.section__header-hero{
     padding-bottom: 32px;
 }
 
@@ -44,6 +45,14 @@
     color: white;
     font-style: normal;
     font-weight: 400;
+}
+
+
+@media screen and (min-width: 768px) {
+    .section__description-hero {
+        font-size: 32px;
+        line-height: 48px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
