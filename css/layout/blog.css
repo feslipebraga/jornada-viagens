@@ -1,3 +1,9 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
 .hero-blog {
     position: relative;
 }
@@ -14,6 +20,16 @@
     width: 100%;
     color: var(--color-bg-main);
     font-weight: var(--weight-bold);
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 20px;
+    line-height: 32px;
 }
 
 @media screen and (min-width: 1024px) {

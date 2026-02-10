@@ -50,9 +50,9 @@
         </nav>
     </header>
 
-    <main id="main-content">
+    <main class="main-content">
         <section class="hero">
-            <div class="hero-blog">
+            <div class="hero-blog" style="display: none;">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="assets/images/blog/hero-blog-desktop.png">
                     <source media="(min-width: 768px)" srcset="assets/images/blog/hero-blog-tablet.png">
@@ -66,12 +66,35 @@
                             Blog da Jornada
                         </h2>
                     </div>
-                    <p class="section__description-hero">Histórias de viagens de nossos clientes. Inspire-se, encontre roteiros e dicas! Qual seu próximo
+                    <p class="section-description">Histórias de viagens de nossos clientes. Inspire-se, encontre
+                        roteiros e dicas! Qual seu próximo
                         destino?</p>
-
                 </div>
             </div>
         </section>
+
+        <section class="blog-posts container">
+            <div class="section__header">
+                <h2 class="section__title">
+                    Talvez você também goste destes posts...
+                </h2>
+            </div>
+            
+            <div class="cards-layout">
+                <article class="card-layout">
+                    <picture style="display: none;">
+                        <source media="(min-width: 1024px)" srcset="assets/images/blog/osaka-mobile-desktop.png">
+                        <source media="(min-width: 768px)" srcset="assets/images/blog/osaka-tablet.png">
+                        <img src="assets/images/blog/osaka-mobile-desktop.png" alt="Imagem do post 1" class="blog-post__image">
+                    </picture>
+                    <h3 class="section-title">Osaka</h3>
+                    <p class="section-description">Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.</p>
+                    <a href="#" class="card-button">Ver detalhes</a>
+                </article>
+
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">

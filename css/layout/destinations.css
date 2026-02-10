@@ -1,28 +1,15 @@
-.destinations__cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 40px;
-}
-
-.destination__card {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    justify-content: space-between;
-}
-
-.destination__card-title {
+.section-title {
     font-size: 28px;
     font-weight: var(--weight-bold);
 }
 
-.destination__card-description {
+.section-description {
     font-size: 20px;
     line-height: 32px;
 }
 
 @media screen and (min-width: 1024px) {
-    .destinations__cards {
+    .cards-layout.destinations__cards {
         grid-template-columns: repeat(2, 1fr);
     }
 }
