@@ -28,11 +28,6 @@ Site institucional da Jornada Viagens, desenvolvido com HTML, CSS e JavaScript p
 ## 🚧 Funcionalidades em Desenvolvimento
 
 - [ ] Páginas completas (Blog, Pacotes de Viagem, Contato)
-- [ ] Hero Section (seção principal de destaque)
-- [ ] Cards promocionais
-- [ ] Cards de navegação
-- [ ] Seção de depoimentos de clientes
-- [ ] Footer completo
 
 ## 📱 Responsividade
 
@@ -41,7 +36,3 @@ O site é totalmente responsivo e se adapta para:
 - Tablet (768px - 1023px)
 - Desktop (1024px - 1439px)
 - Desktop Grande (1440px+)
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
